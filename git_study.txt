@@ -1,0 +1,16 @@
+huy
+hoang
+
+Kiem tra nhung file dang sua/them/xoa
+git status
+
+
+Staged code
+
+git add -A
+git add .
+
+Commit code
+
+git commit -m "Toi da lam xong"
+
