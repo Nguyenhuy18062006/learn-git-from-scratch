@@ -2,6 +2,9 @@ huy
 hoang
 haha
 
+
+Noi luu tru code duoc goi la Repository
+
 Kiem tra nhung file dang sua/them/xoa
 git status
 
