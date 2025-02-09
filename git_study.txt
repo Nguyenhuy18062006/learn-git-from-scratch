@@ -18,3 +18,10 @@ git add .
 
 git commit -m "Toi da lam xong"
 
+
+
+
+4. Lâý code từ gitlab (REMOTE)
+
+
+git clone https://github.com/Nguyenhuy18062006/learn-git-from-scratch.git
