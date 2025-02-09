@@ -25,3 +25,10 @@ git commit -m "Toi da lam xong"
 
 
 git clone https://github.com/Nguyenhuy18062006/learn-git-from-scratch.git
+5. De lay code moi nhat 
+    git pull
+6. De lay tat ca cac nhanh (branch) dang co
+    git fetch
+7. de day code len Remote Repository
+    git push 
+    git push --set-upstream origin <branch> (voi truong hop la nhanh moi tao)
