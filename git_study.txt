@@ -2,46 +2,37 @@ huy
 hoang
 haha
 
-
 Noi luu tru code duoc goi la Repository
-
 Kiem tra nhung file dang sua/them/xoa
 git status
-
 1. un-staged code
-2. Staged code
 
+2. Staged code
 git add -A
 git add .
 
 3. Commit code
-
 git commit -m "Toi da lam xong"
 
-
-
-
 4. Lâý code từ gitlab (REMOTE)
-
-
 git clone https://github.com/Nguyenhuy18062006/learn-git-from-scratch.git
+
 5. De lay code moi nhat 
     git pull
+
 6. De lay tat ca cac nhanh (branch) dang co
     git fetch
+
 7. de day code len Remote Repository
     git push 
     git push --set-upstream origin <branch> (voi truong hop la nhanh moi tao)
 
 8. Tạo nhánh mới
     git branch <branch name>
+
 9. Di chuyển giữa các nhánh
     git checkout <branch name>
 
 10. Setup username and email in git
-
     git config --global user.name "Huy Nguyen"  
     git config --global user.email "johndoe@example.com"
-
-12. Test 123
-12. Test 456
