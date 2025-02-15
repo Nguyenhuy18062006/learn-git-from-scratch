@@ -32,3 +32,13 @@ git clone https://github.com/Nguyenhuy18062006/learn-git-from-scratch.git
 7. de day code len Remote Repository
     git push 
     git push --set-upstream origin <branch> (voi truong hop la nhanh moi tao)
+
+8. Tạo nhánh mới
+    git branch <branch name>
+9. Di chuyển giữa các nhánh
+    git checkout <branch name>
+
+10. Setup username and email in git
+
+    git config --global user.name "Huy Nguyen"  
+    git config --global user.email "johndoe@example.com" 
