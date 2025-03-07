@@ -1,0 +1,7 @@
+print("Hello wourld!")
+N=int (input("Nhập một số nguyên N: "))
+print("Vậy số đã nhập là:",N)
+M=(1,2,3,4,5,3)
+print(M)
+A=set(M)
+print(A)
