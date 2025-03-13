@@ -4,8 +4,18 @@ console.log(tên);
 let số = 0.1;
 số = 1;
 console.log(số);
-var a=9;
-a = window.prompt(Nhập giá trị của a);
 for(var i=0;i<=a;i++){
     console.log(i);
 }
+// Ví dụ về 3 kiểu dữ liệu;
+//var
+var tuổi = 18;
+var tuổi= 12;
+var check = false;
+console.log(tuổi);l
+//let
+let namsinh = 2006;
+let namsinh =2005;
+//const 
+const số2 = 12;
+console.log(tuổi, namsinh , số2);
