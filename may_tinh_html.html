@@ -4,48 +4,54 @@
     <title>Máy tinh đơn giản</title>
   </head>
   <body>
-    <table style="border: 1px solid black">
-      <span>
+    <div>
+      <table style="background-color: aliceblue" border="2px">
         <tr>
-          <input />
+          <th>
+            <input type="caculator" id="so1" placeholder="Nhập số thứ nhất" />
+          </th>
+          <br />
+          <th>
+            <input type="caculator" id="so2" placeholder="Nhập số thứ hai" />
+          </th>
         </tr>
-      </span>
-      <br />
+      </table>
       <span>
-        <tr>
-          <th><input type="button" value="1" /></th>
-          <th><input type="button" value="2" /></th>
-          <th><input type="button" value="3" /></th>
-          <th><input type="button" value="+" /></th>
-        </tr>
+        <button
+          onclick="caculate('+')"
+          style="color: rgb(255, 0, 0); background-color: blue"
+        >
+          +
+        </button>
       </span>
-      <br />
       <span>
-        <tr>
-          <th><input type="button" value="4" /></th>
-          <th><input type="button" value="5" /></th>
-          <th><input type="button" value="6" /></th>
-          <th><input type="button" value="-" /></th>
-        </tr>
+        <button
+          onclick="caculate('-')"
+          style="color: rgb(255, 0, 0); background-color: blue"
+        >
+          -
+        </button>
       </span>
-      <br />
       <span>
-        <tr>
-          <th><input type="button" value="7" /></th>
-          <th><input type="button" value="8" /></th>
-          <th><input type="button" value="9" /></th>
-          <th><input type="button" value="*" /></th>
-        </tr>
+        <button
+          onclick="caculate('*')"
+          style="color: rgb(255, 0, 0); background-color: blue"
+        >
+          x
+        </button>
       </span>
-      <br />
       <span>
-        <tr>
-          <th><input type="button" value="0" /></th>
-          <th><input type="button" value="." /></th>
-          <th><input type="button" value="=" /></th>
-          <th><input type="button" value=":" /></th>
-        </tr>
+        <button
+          onclick="caculate('/')"
+          style="color: rgb(255, 0, 0); background-color: blue"
+        >
+          :
+        </button>
       </span>
-    </table>
+    </div>
+    <div>
+      <h3>Kết quả: <span id="result">0</span></h3>
+    </div>
+    <script src="may_tinh.js"></script>
   </body>
 </html>

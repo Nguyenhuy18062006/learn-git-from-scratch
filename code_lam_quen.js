@@ -23,3 +23,6 @@ alert("Xin chaò");
 let userName = prompt("Nhập tên của bạn vào: ");
 console.log("Tên của bạn là: " + userName);
 alert("Chào mừng: " + userName);
+let birthUser = prompt("Nhập tuổi của bạn:");
+console.log("Tuổi của bạn là:" + birthUser);
+alert("Tuổi của bạn là: " + birthUser);
