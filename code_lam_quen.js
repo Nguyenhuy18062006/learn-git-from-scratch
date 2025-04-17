@@ -76,3 +76,4 @@ if (randomValue2 >= 5.0) {
 } else {
   console.log("Bạn đã tạch");
 }
+//Bài 17 Toán tử 3 ngôi
