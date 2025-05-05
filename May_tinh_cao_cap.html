@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Máy Tính Nâng Cao</title>
+    <link href="May_Tinh_Cao_Cap.css" />
+  </head>
+  <body>
+    <h1
+      style="
+        font-size: 15px;
+        color: blueviolet;
+        background-color: aqua;
+        height: 20px;
+        width: 130px;
+      "
+    >
+      Máy Tính Cao Cấp
+    </h1>
+    <table border="2px" style="background-color: lavender; color: black">
+      <input id="display" style="width: 115px" />
+      <tr>
+        <td><button class="button" onclick="mayTinh(1)" id="1">1</button></td>
+        <td><button class="button" onclick="mayTinh(2)" id="2">2</button></td>
+        <td><button class="button" onclick="mayTinh(3)" id="3">3</button></td>
+        <td><button class="button" onclick="mayTinh('+')" id="+">+</button></td>
+      </tr>
+      <tr>
+        <td><button class="button" onclick="mayTinh(4)" id="4">4</button></td>
+        <td><button class="button" onclick="mayTinh(5)" id="5">5</button></td>
+        <td><button class="button" onclick="mayTinh(6)" id="6">6</button></td>
+        <td>
+          <button
+            style="width: 23px; height: 22px"
+            class="button"
+            onclick="mayTinh('-')"
+            id="-"
+          >
+            -
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td><button class="button" onclick="mayTinh(7)" id="7">7</button></td>
+        <td><button class="button" onclick="mayTinh(8)" id="8">8</button></td>
+        <td><button class="button" onclick="mayTinh(9)" id="9">9</button></td>
+        <td><button class="button" onclick="mayTinh('*')" id="*">x</button></td>
+      </tr>
+      <tr>
+        <td><button class="button" onclick="mayTinh(0)" id="0">0</button></td>
+        <td>
+          <button
+            style="width: 23px; height: 22px"
+            class="button"
+            onclick="mayTinh('.')"
+            id="."
+          >
+            .
+          </button>
+        </td>
+        <td><button class="button" onclick="mayTinh('=')" id="=">=</button></td>
+        <td>
+          <button
+            style="width: 23px; height: 22px"
+            class="button"
+            onclick="mayTinh('/')"
+            id=":"
+          >
+            :
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button
+            style="width: 23px; height: 22px; font-size: 8px"
+            class="button"
+            onclick="mayTinh('AC')"
+            id="AC"
+          >
+            AC
+          </button>
+        </td>
+        <td>
+          <button
+            style="width: 23px; height: 22px; font-size: 8px"
+            class="button"
+            onclick="mayTinh('C')"
+            id="C"
+          >
+            C
+          </button>
+        </td>
+      </tr>
+    </table>
+    <script src="May_tinh_cao_cap.js"></script>
+    <css src="May_Tinh_Cao_Cap.css"></css>
+  </body>
+</html>

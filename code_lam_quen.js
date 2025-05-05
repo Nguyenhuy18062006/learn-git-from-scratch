@@ -5,14 +5,14 @@ alert("Chào mừng: " + userName);
 let birthUser = prompt("Nhập tuổi của bạn:");
 console.log("Tuổi của bạn là:" + birthUser);
 alert("Tuổi của bạn là: " + birthUser);
-//BAi 6
+//BAi 6 các kiểu dữ liệu
 let myString = "abc";
 console.log(myString);
 let soNguyen = 12;
 console.log(soNguyen);
 let check = true;
 let connect = null;
-//Bai 7
+//Bai 7 Nhập và các kiểu in
 let so1 = prompt("Nhập số thứ nhất:");
 let so2 = prompt("Nhập số thứ hai:");
 let so3 = Number(so1) + Number(so2);
@@ -77,3 +77,79 @@ if (randomValue2 >= 5.0) {
   console.log("Bạn đã tạch");
 }
 //Bài 17 Toán tử 3 ngôi
+let numberD = 10;
+let message = numberD >= 0 ? "Số dương" : "Số âm"; // bthuc1 ? bthuc2 : bthuc3;
+console.log(message);
+// biểu thức 1 đúng thì xét biểu thức 2 còn nếu sai thì xét biểu thức 3 rồi chuyền vào biến muốn gán.
+
+//Bài 17 kiểu Truthy và Falsy values
+//Ép ngược kiểu từ "số" sang "chuỗi"
+let numberE = 123;
+console.log(typeof numberE);
+let numberF = String(numberE);
+console.log(typeof numberF);
+//Bài 19 Swith case js
+let numberG = parseFloat(
+  prompt("Nhập một kí tự bát kì để kiểm tra có phải số không: ")
+);
+switch (numberG % 2) {
+  case 0:
+    cosnsole.log("Số chẵn");
+    break;
+  case 1:
+    console.log("Số lẻ");
+    break;
+  default:
+    console.log("Không phải số");
+}
+//Biến thể switch case
+let month = parseInt(prompt("Nhập vào một tháng từ 1=>12 : "));
+switch (month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    console.log("Tháng có 31 ngày");
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    console.log("Tháng có 30 ngày");
+    break;
+  case 2:
+    console.log("Tháng có 28 hoặc 29 ngày");
+    break;
+  default:
+    console.log("Tháng không tồn tại");
+}
+//Bài 25.1 funcion Hàm
+//Bước 1: Khai báo hàm
+function xinChao() {
+  console.log("Xin chào Nguyễn Quang Huy");
+}
+//Gọi hàm
+xinChao();
+//function với tham số (paramentor)
+let inputName = prompt("Nhập Tên của bạn vào hàm: ");
+function xinChao2(name) {
+  console.log("Xin chào %s: ", name);
+}
+xinChao2(inputName);
+xinChao2("HiHiHi");
+//Tinh tổng bằng hàm
+function tinhTong(soA, soC) {
+  let ketQua1 = soA + soC;
+  return ketQua1;
+}
+console.log(tinhTong(12, 3));
+// Lưu ý: Nếu thân Hàm không có return thì giá trị sẽ trả về undefined
+// Gs giá trị sẵn để tránh NaN nếu chỉ nhập 1 số
+function tinhTong2(soA = 0, soC = 0) {
+  let ketQua2 = soA + soC;
+  return ketQua2;
+}
+console.log(tinhTong2(12)); // Ví dụ nhập thiếu 1 số thì kêt quả trả về vẫn là 1 số là 12+0= 12
